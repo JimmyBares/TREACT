@@ -16,12 +16,36 @@ body {
 .row {
     width: 100%;
     margin: 0 auto;
+    
 }
 
 .row__narrow {
     width: 100%;
     max-width: 1024px;
     margin: 0 auto;
+}
+
+.container {
+    padding: 96px 0;
+}
+
+a {
+    display: inline;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 48px;
+    color: #1a202c;
+    line-height: 1.25;
+}
+
+.purple {
+    color: #6415ff;
 }
 
 
