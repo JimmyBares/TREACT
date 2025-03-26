@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TREACT</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <Script src="https://kit.fontawesome.com/2574de0db0.js" crossorigin="anonymous"></Script>
 </head>
 <body>
@@ -14,11 +14,44 @@
     <nav>
         <div class="row nav__row"></div>
             <div class="nav__logo">
-                <img class="nav__logo" src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="logo">
+                <img class="nav__logo--img" src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="logo">
                 <div class="nav__logo--title">Treact</div>
             </div>
         <div class="nav__links"></div>
-            <a href="#" class="nav__links">About</a>
-    </nav>
+            <a href="#" class="nav__link">About</a>
+            <a href="#" class="nav__link">Blog</a>
+            <a href="#" class="nav__link">Pricing</a>
+            <a href="#" class="nav__link">Contact Us</a>
+            <a href="#" class="nav__link">Login</a>
+            <a href="#" class="nav__link nav__link--primary">Sign Up</a>
+        </div>
+        <button class="btn__menu" onclick="openMenu()">
+            <svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="btn__menu--svg">
+        <line xl="3" y1="12" x2="21" y2="12"></line>
+        <line xl="3" y1="6" x2="21" y2="6"></line>
+        <line xl="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+        </button>
+    </div>
+        </nav>
+        <div class="modal">
+            <button class="btn__menu" onclick="closeMenu()">
+                <svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="light___StyledCloseIcon-lj69nl-14 fASujC">
+            <line xl="18" y1="6" x2="6" y2="18"></line>
+            <line xl="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+            </button>
+        <div class="modal__links">
+            <a class="modal__link">About</a>
+            <a class="modal__link">Blog</a>
+            <a class="modal__link">Price</a>
+            <a class="modal__link">About</a>
+            <a class="modal__link">Contract</a>
+            <a class="modal__link modal__link--primary">Sign up</a>
+        </div>
 </section>
 </html>

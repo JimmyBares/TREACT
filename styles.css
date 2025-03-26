@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Inter', system-ui;
+  font-family: 'roboto', sans-serif;
   color: #243e63;
 }
 
@@ -16,7 +16,7 @@ body {
 .row {
     width: 100%;
     margin: 0 auto;
-    
+    max-width: 1200px;
 }
 
 .row__narrow {
@@ -30,12 +30,31 @@ body {
 }
 
 a {
+    display: flex;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 48px;
+    color: #1a202c;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
     display: inline;
     text-decoration: none;
 }
 
 img {
     width: 100%;
+    display: flex;
+    justify-content: left;
+    margin: 0 auto;
 }
 
 h1 {
@@ -47,5 +66,6 @@ h1 {
 .purple {
     color: #6415ff;
 }
+
 
 
