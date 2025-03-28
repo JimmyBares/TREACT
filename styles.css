@@ -4,19 +4,18 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'roboto', sans-serif;
-  color: #243e63;
+  font-family: 'Inter', system-ui;
 }
 
 body {
-    max-width: 100vw;
-    overflow: hidden;
+max-width: 100vw;
+overflow-x: hidden;
 }
 
 .row {
-    width: 100%;
-    margin: 0 auto;
-    max-width: 1200px;
+   width: 100%;
+   max-width: 128px;
+   margin: 0 auto;
 }
 
 .row__narrow {
@@ -26,20 +25,10 @@ body {
 }
 
 .container {
-   display: flex;
-   justify-content: center;
-    padding: 20px 0;
+    padding: 96px;
 }
 
-a {
-    display: flex;
-    text-decoration: none;
-}
 
-h1 {
-    font-size: 48px;
-    color: #1a202c;
-}
 
 .nav__logo {
     width: 32px;
