@@ -28,7 +28,38 @@ overflow-x: hidden;
     padding: 96px;
 }
 
+a {
+    display: inline;
+    text-decoration: none;
+}
 
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 48px;
+    color: #1a202c;
+    line-height: 1.25;
+}
+
+.purple {
+    color: #6415ff;
+}
+
+p {
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.section__title {
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(36, 62, 99);
+    line-height: 1.5;
+    margin: 16px;
+    letter-spacing: 0.025em;
+}
 
 .nav__logo {
     width: 32px;
